@@ -26,6 +26,7 @@ $cars[] = "BYD";
 print_r($cars);
 $son = [4,8,"test"];
 echo $son[2];
+// Associative usul
 echo "\n";
 $user = ["ism" => "Ali", "familiya" => "Masharipov","t_yili" => 1995];
 echo $user['ism'];

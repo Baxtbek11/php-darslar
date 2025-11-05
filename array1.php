@@ -30,4 +30,18 @@ echo $son[2];
 echo "\n";
 $user = ["ism" => "Ali", "familiya" => "Masharipov","t_yili" => 1995];
 echo $user['ism'];
+echo "\n";
+$user = ["ism" => "Ali", "familiya" => "Masharipov","t_yili" => 1995];
+$user['familiya'] = "Ozodov";
+print_r($user);
+echo "\n";
+$son = [];
+$son ['ism1'] = "test1";
+$son [0] = 12;
+$son [1] = 19;
+$son ['ism'] = "test";
+print_r($son);
+$sonlar1 = [8,45,46,8,65,62,5,6,8,2,"test"];
+array_splice($sonlar1, 2,3);
+print_r($sonlar1)
 ?>

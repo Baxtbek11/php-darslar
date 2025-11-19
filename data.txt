@@ -1,0 +1,2 @@
+Ma'lumot data.txt fayliga yozildi
+Yangi ma'lumot qo'shish

@@ -25,7 +25,5 @@ function yoshniAniqlash($b_year,$year = 2024) {
     echo "Siz".$year - $b_year."yoshdasiz.";
 
     echo "Siz voyaga yetmagansiz!";
-} else{
-    echo "Siz voyaga yetkansiz";
 }
 ?>

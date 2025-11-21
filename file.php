@@ -18,7 +18,7 @@ if(file_exists('test.txt')){
     echo "Fayl mavjud";
     unlink("test.txt");
     echo "Fayl o'chirildi <br>";
-} else(
-    echo` "Fayl mavjud emas!";
-)
+} else{
+    echo "Fayl mavjud emas!";
+}
 ?>

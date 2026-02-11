@@ -3,7 +3,7 @@ class House {
     // Property
     public $address;
     public $rooms;
-    // Method
+    // Methods
     public function __construct($address,$rooms) {
         $this->address = $address;
         $this->rooms = $rooms;
@@ -18,11 +18,11 @@ class House {
 class Apartment extends House {
     public $floor;
     public function getType(){
-        return "Bu kvartira";
-    }
-}
-$house = new Apartment("xonqa obod maxallasi", 3);
-echo $house->openDoor();
-echo $house->getInfo();
-echo $house->getType();
+ return "Bu kvartira";
+ }
+ }
+ $house = new Apartment("Xonqa obod maxallasi", 3);
+ echo $house->openDoor();
+ echo $house->getInfo();
+ echo $house->getType();
 ?>
